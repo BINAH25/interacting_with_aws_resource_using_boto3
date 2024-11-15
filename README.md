@@ -76,3 +76,24 @@
     python3 delete_bucket.py
 
 ![alt text](image-7.png)
+
+## Interation with AWS SQS
+
+1. **create a queue:**
+   ```bash
+    cd sqs
+    python3 create_sqs.py
+
+![alt text](image-8.png)
+
+2. **retrieve queue:**
+   ```bash
+    python3 retrieve_sqs.py
+
+![alt text](image-9.png)
+
+3. **delete queue:**
+   ```bash
+    python3 delete_sqs.py
+
+![alt text](image-5.png)
