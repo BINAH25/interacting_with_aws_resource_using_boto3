@@ -96,4 +96,3 @@
    ```bash
     python3 delete_sqs.py
 
-![alt text](image-5.png)
