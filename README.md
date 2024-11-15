@@ -1,4 +1,23 @@
-# interacting_with_aws_resource_using_boto3
+# Interacting with AWS Resources Using Boto3
+
+This repository demonstrates how to interact with various AWS services (EC2, S3, and SQS) using **Boto3**, the AWS SDK for Python. It provides a series of scripts for performing common AWS operations such as creating, retrieving, and deleting EC2 instances, S3 buckets, and SQS queues.
+
+## Key Features:
+
+### EC2 Interactions:
+- **Create EC2 Instances**: Customize parameters like Image ID, instance type, and key name.
+- **Retrieve EC2 Instance Details**: Fetch details of existing EC2 instances.
+- **Terminate EC2 Instances**: Delete EC2 instances as needed.
+
+### S3 Interactions:
+- **Create and Manage S3 Buckets**: Create, list, and delete S3 buckets.
+- **Upload and Download Files to/from S3 Buckets**: Upload and retrieve files from an S3 bucket.
+- **Delete S3 Buckets**: Clean up unwanted S3 buckets.
+
+### SQS Interactions:
+- **Create, Retrieve, and Delete SQS Queues**: Manage SQS queues with basic operations.
+
+## Setup Instructions:
 
 1. **Clone the Repository:**
    ```bash
